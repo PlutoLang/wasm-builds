@@ -1,6 +1,7 @@
 {
     "pluto": {
         "0.6.3": "https://wasm.pluto.do/out/pluto/0.6.3/pluto.js",
+        "0.7.0": "https://wasm.pluto.do/out/pluto/0.7.0/pluto.js",
         "0.7.4": "https://wasm.pluto.do/out/pluto/0.7.4/pluto.js"
     },
     "lua": {
