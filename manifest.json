@@ -1,0 +1,13 @@
+{
+    "pluto": {
+        "0.6.3": "https://wasm.pluto.do/out/pluto/0.6.3/pluto.js",
+        "0.7.4": "https://wasm.pluto.do/out/pluto/0.7.4/pluto.js"
+    },
+    "lua": {
+        "5.1.1": "https://wasm.pluto.do/out/lua/v5.1.1/lua.js",
+        "5.2.3": "https://wasm.pluto.do/out/lua/v5.2.3/lua.js",
+        "5.3.6": "https://wasm.pluto.do/out/lua/v5.3.6/lua.js",
+        "5.4.5": "https://wasm.pluto.do/out/lua/v5.4.5/lua.js",
+        "5.4.6": "https://wasm.pluto.do/out/lua/v5.4.6/lua.js"
+    }
+}
