@@ -13,12 +13,12 @@ if(!is_dir("bin/int"))
 
 // Find work
 $files = [];
-foreach(scandir("src/vendor/Soup") as $file)
+foreach(scandir("src/vendor/Soup/soup") as $file)
 {
 	if(substr($file, -4) == ".cpp")
 	{
 		$name = substr($file, 0, -4);
-		array_push($files, "vendor/Soup/".$name);
+		array_push($files, "vendor/Soup/soup/".$name);
 	}
 }
 foreach(scandir("src") as $file)
