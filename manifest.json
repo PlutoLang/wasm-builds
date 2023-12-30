@@ -5,6 +5,9 @@
         "0.7.4": "https://wasm.pluto.do/out/pluto/0.7.4/pluto.js",
         "0.8.0": "https://wasm.pluto.do/out/pluto/0.8.0/pluto.js"
     },
+    "libpluto": {
+        "0.8.0": "https://wasm.pluto.do/out/libpluto/0.8.0/libpluto.js"
+    },
     "lua": {
         "5.1.1": "https://wasm.pluto.do/out/lua/v5.1.1/lua.js",
         "5.2.3": "https://wasm.pluto.do/out/lua/v5.2.3/lua.js",
