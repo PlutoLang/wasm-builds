@@ -31,7 +31,9 @@ passthru("cd repos/".$repo." && git checkout ".$tag);
 passthru("cd repos/".$repo." && php ../../build/".$repo.".php");
 
 // Deploy
-mkdir("out/".$repo."/".$tag);
+@mkdir("out");
+@mkdir("out/".$repo);
+@mkdir("out/".$repo."/".$tag);
 copy("repos/".$repo."/".$repo.".js", "out/".$repo."/".$tag."/".$repo.".js");
 copy("repos/".$repo."/".$repo.".wasm", "out/".$repo."/".$tag."/".$repo.".wasm");
 
