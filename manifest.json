@@ -3,7 +3,8 @@
         "0.6.3": "https://wasm.pluto.do/out/pluto/0.6.3/pluto.js",
         "0.7.0": "https://wasm.pluto.do/out/pluto/0.7.0/pluto.js",
         "0.7.4": "https://wasm.pluto.do/out/pluto/0.7.4/pluto.js",
-        "0.8.0": "https://wasm.pluto.do/out/pluto/0.8.0/pluto.js"
+        "0.8.0": "https://wasm.pluto.do/out/pluto/0.8.0/pluto.js",
+        "0.8.1": "https://wasm.pluto.do/out/pluto/0.8.1/pluto.js"
     },
     "libpluto": {
         "0.8.0": "https://wasm.pluto.do/out/libpluto/0.8.0/libpluto.js"
