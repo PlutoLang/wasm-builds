@@ -36,5 +36,6 @@ foreach($files as $file)
 
 //echo "Linking...\n";
 $clang .= " -s WASM=1 -s MODULARIZE=1 -s EXPORT_NAME=lua -s EXPORTED_FUNCTIONS=_main,_strcpy,_free -s EXPORTED_RUNTIME_METHODS=[\"FS\",\"cwrap\"] -s FS_DEBUG=1";
-//$clang .= " -s LINKABLE=1 -s EXPORT_ALL=1"; // uncomment for debugging
+$clang .= " -s ALLOW_MEMORY_GROWTH=1 -s ABORTING_MALLOC=0"; // to correctly handle memory-intensive tasks
+//$clang .= " -s LINKABLE=1 -s EXPORT_ALL=1 -s ASSERTIONS=1"; // uncomment for debugging
 passthru("$clang -o lua.js ".join(" ", $objects));
