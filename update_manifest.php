@@ -14,7 +14,7 @@ foreach ($repos as $repo => $_)
 			{
 				$version = substr($version, 1);
 			}
-			$json[$repo][$version] = "https://plutolang.github.io/wasm-builds/out/$repo/$tag/$repo.js";
+			$json[$repo][$version] = "https://pluto-lang.org/wasm-builds/out/$repo/$tag/$repo.js";
 		}
 	}
 }

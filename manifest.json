@@ -1,32 +1,32 @@
 {
     "pluto": {
-        "0.6.3": "https://plutolang.github.io/wasm-builds/out/pluto/0.6.3/pluto.js",
-        "0.7.0": "https://plutolang.github.io/wasm-builds/out/pluto/0.7.0/pluto.js",
-        "0.7.4": "https://plutolang.github.io/wasm-builds/out/pluto/0.7.4/pluto.js",
-        "0.8.0": "https://plutolang.github.io/wasm-builds/out/pluto/0.8.0/pluto.js",
-        "0.8.1": "https://plutolang.github.io/wasm-builds/out/pluto/0.8.1/pluto.js",
-        "0.8.2": "https://plutolang.github.io/wasm-builds/out/pluto/0.8.2/pluto.js",
-        "0.9.0": "https://plutolang.github.io/wasm-builds/out/pluto/0.9.0/pluto.js",
-        "0.9.1": "https://plutolang.github.io/wasm-builds/out/pluto/0.9.1/pluto.js",
-        "0.9.2": "https://plutolang.github.io/wasm-builds/out/pluto/0.9.2/pluto.js",
-        "0.9.3": "https://plutolang.github.io/wasm-builds/out/pluto/0.9.3/pluto.js",
-        "0.9.4": "https://plutolang.github.io/wasm-builds/out/pluto/0.9.4/pluto.js"
+        "0.6.3": "https://pluto-lang.org/wasm-builds/out/pluto/0.6.3/pluto.js",
+        "0.7.0": "https://pluto-lang.org/wasm-builds/out/pluto/0.7.0/pluto.js",
+        "0.7.4": "https://pluto-lang.org/wasm-builds/out/pluto/0.7.4/pluto.js",
+        "0.8.0": "https://pluto-lang.org/wasm-builds/out/pluto/0.8.0/pluto.js",
+        "0.8.1": "https://pluto-lang.org/wasm-builds/out/pluto/0.8.1/pluto.js",
+        "0.8.2": "https://pluto-lang.org/wasm-builds/out/pluto/0.8.2/pluto.js",
+        "0.9.0": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.0/pluto.js",
+        "0.9.1": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.1/pluto.js",
+        "0.9.2": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.2/pluto.js",
+        "0.9.3": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.3/pluto.js",
+        "0.9.4": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.4/pluto.js"
     },
     "libpluto": {
-        "0.8.0": "https://plutolang.github.io/wasm-builds/out/libpluto/0.8.0/libpluto.js",
-        "0.8.1": "https://plutolang.github.io/wasm-builds/out/libpluto/0.8.1/libpluto.js",
-        "0.8.2": "https://plutolang.github.io/wasm-builds/out/libpluto/0.8.2/libpluto.js",
-        "0.9.0": "https://plutolang.github.io/wasm-builds/out/libpluto/0.9.0/libpluto.js",
-        "0.9.1": "https://plutolang.github.io/wasm-builds/out/libpluto/0.9.1/libpluto.js",
-        "0.9.2": "https://plutolang.github.io/wasm-builds/out/libpluto/0.9.2/libpluto.js",
-        "0.9.3": "https://plutolang.github.io/wasm-builds/out/libpluto/0.9.3/libpluto.js",
-        "0.9.4": "https://plutolang.github.io/wasm-builds/out/libpluto/0.9.4/libpluto.js"
+        "0.8.0": "https://pluto-lang.org/wasm-builds/out/libpluto/0.8.0/libpluto.js",
+        "0.8.1": "https://pluto-lang.org/wasm-builds/out/libpluto/0.8.1/libpluto.js",
+        "0.8.2": "https://pluto-lang.org/wasm-builds/out/libpluto/0.8.2/libpluto.js",
+        "0.9.0": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.0/libpluto.js",
+        "0.9.1": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.1/libpluto.js",
+        "0.9.2": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.2/libpluto.js",
+        "0.9.3": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.3/libpluto.js",
+        "0.9.4": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.4/libpluto.js"
     },
     "lua": {
-        "5.1.1": "https://plutolang.github.io/wasm-builds/out/lua/v5.1.1/lua.js",
-        "5.2.3": "https://plutolang.github.io/wasm-builds/out/lua/v5.2.3/lua.js",
-        "5.3.6": "https://plutolang.github.io/wasm-builds/out/lua/v5.3.6/lua.js",
-        "5.4.5": "https://plutolang.github.io/wasm-builds/out/lua/v5.4.5/lua.js",
-        "5.4.6": "https://plutolang.github.io/wasm-builds/out/lua/v5.4.6/lua.js"
+        "5.1.1": "https://pluto-lang.org/wasm-builds/out/lua/v5.1.1/lua.js",
+        "5.2.3": "https://pluto-lang.org/wasm-builds/out/lua/v5.2.3/lua.js",
+        "5.3.6": "https://pluto-lang.org/wasm-builds/out/lua/v5.3.6/lua.js",
+        "5.4.5": "https://pluto-lang.org/wasm-builds/out/lua/v5.4.5/lua.js",
+        "5.4.6": "https://pluto-lang.org/wasm-builds/out/lua/v5.4.6/lua.js"
     }
 }
