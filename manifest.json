@@ -10,7 +10,8 @@
         "0.9.1": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.1/pluto.js",
         "0.9.2": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.2/pluto.js",
         "0.9.3": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.3/pluto.js",
-        "0.9.4": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.4/pluto.js"
+        "0.9.4": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.4/pluto.js",
+        "0.9.5": "https://pluto-lang.org/wasm-builds/out/pluto/0.9.5/pluto.js",
     },
     "libpluto": {
         "0.8.0": "https://pluto-lang.org/wasm-builds/out/libpluto/0.8.0/libpluto.js",
@@ -20,7 +21,8 @@
         "0.9.1": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.1/libpluto.js",
         "0.9.2": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.2/libpluto.js",
         "0.9.3": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.3/libpluto.js",
-        "0.9.4": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.4/libpluto.js"
+        "0.9.4": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.4/libpluto.js",
+        "0.9.5": "https://pluto-lang.org/wasm-builds/out/libpluto/0.9.5/libpluto.js"
     },
     "lua": {
         "5.1.1": "https://pluto-lang.org/wasm-builds/out/lua/v5.1.1/lua.js",
