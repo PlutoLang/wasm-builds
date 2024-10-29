@@ -5,7 +5,9 @@ $json = [];
 foreach ($repos as $repo => $_)
 {
 	$json[$repo] = [];
-	foreach (scandir("out/".$repo) as $tag)
+	$tags = scandir("out/".$repo);
+	usort($tags, "version_compare");
+	foreach ($tags as $tag)
 	{
 		if (substr($tag, 0, 1) != ".")
 		{
