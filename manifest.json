@@ -17,11 +17,6 @@
         "0.10.2": "https://pluto-lang.org/wasm-builds/out/pluto/0.10.2/pluto.js",
         "0.10.3": "https://pluto-lang.org/wasm-builds/out/pluto/0.10.3/pluto.js",
         "0.10.4": "https://pluto-lang.org/wasm-builds/out/pluto/0.10.4/pluto.js",
-        "0.10.5": "https://pluto-lang.org/wasm-builds/out/pluto/0.10.5/pluto.js",
-        "0.11.0": "https://pluto-lang.org/wasm-builds/out/pluto/0.11.0/pluto.js",
-        "0.11.1": "https://pluto-lang.org/wasm-builds/out/pluto/0.11.1/pluto.js",
-        "0.11.2": "https://pluto-lang.org/wasm-builds/out/pluto/0.11.2/pluto.js",
-        "0.11.3": "https://pluto-lang.org/wasm-builds/out/pluto/0.11.3/pluto.js",
         "0.12.0": "https://pluto-lang.org/wasm-builds/out/pluto/0.12.0/pluto.js"
     },
     "libpluto": {
