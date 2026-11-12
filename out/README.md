@@ -1,0 +1,1 @@
+This folder continues to exist for users of [PlutoScript](https://github.com/PlutoLang/PlutoScript) as they do not check manifest.json for up-to-date script URLs. New versions will not be added here.

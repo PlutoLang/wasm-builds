@@ -1,22 +1,22 @@
 <?php
-require_once "common.php";
-
 $json = [];
-foreach ($repos as $repo => $_)
+foreach (["pluto", "lua"] as $runtime)
 {
-	$json[$repo] = [];
-	$tags = scandir("out/".$repo);
-	usort($tags, "version_compare");
-	foreach ($tags as $tag)
+	$versions = scandir($runtime);
+	usort($versions, "version_compare");
+	foreach ($versions as $version)
 	{
-		if (substr($tag, 0, 1) != ".")
+		if (substr($version, 0, 1) != ".")
 		{
-			$version = $tag;
-			if (substr($version, 0, 1) == "v")
+			foreach (scandir("$runtime/$version") as $file)
 			{
-				$version = substr($version, 1);
+				if (substr($file, -5) == ".wasm")
+				{
+					$binary = substr($file, 0, -5);
+					$json[$binary] ??= [];
+					$json[$binary][$version] = "https://pluto-lang.org/wasm-builds/$runtime/$version/$binary.js";
+				}
 			}
-			$json[$repo][$version] = "https://pluto-lang.org/wasm-builds/out/$repo/$tag/$repo.js";
 		}
 	}
 }
